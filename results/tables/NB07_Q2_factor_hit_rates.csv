@@ -1,0 +1,166 @@
+factor_id,layer,variable,direction,n_triggered,n_hit,hit_rate,lift_vs_baseline,coverage
+L2-91,2,Attr12=LOW & Attr24=LOW & Attr55=LOW,composite,2051,340,0.1658,1.988,0.2599
+L2-77,2,Attr12=LOW & Attr24=LOW & working_capital_to_assets=LOW,composite,2139,348,0.1627,1.951,0.2661
+L2-66,2,Attr12=LOW & Attr24=LOW & cash_to_current_liabilities=LOW,composite,1990,316,0.1588,1.904,0.2416
+L2-90,2,Attr24=LOW & Attr45=LOW & working_capital_to_assets=LOW,composite,2083,323,0.1551,1.859,0.2469
+L2-61,2,Attr12=LOW & Attr24=LOW & Attr30=HIGH,composite,2163,335,0.1549,1.857,0.2561
+L2-92,2,Attr12=LOW & Attr55=LOW & working_capital_to_assets=LOW,composite,2343,360,0.1536,1.842,0.2752
+L2-98,2,Attr12=LOW & Attr55=LOW,composite,2425,371,0.153,1.834,0.2836
+L2-93,2,Attr41=LOW & Attr57=LOW,composite,2576,394,0.153,1.834,0.3012
+L2-88,2,Attr12=LOW & working_capital_to_assets=LOW,composite,2514,381,0.1516,1.817,0.2913
+L2-65,2,Attr12=LOW & Attr24=LOW & Attr25=LOW,composite,2375,358,0.1507,1.807,0.2737
+L2-102,2,Attr12=LOW & Attr45=LOW & Attr55=LOW,composite,2291,342,0.1493,1.79,0.2615
+L2-79,2,Attr12=LOW & cash_to_current_liabilities=LOW,composite,2369,352,0.1486,1.782,0.2691
+L2-95,2,Attr12=LOW & Attr45=LOW & working_capital_to_assets=LOW,composite,2344,348,0.1485,1.78,0.2661
+L2-04,2,Attr24=LOW & Attr55=LOW & cash_to_current_liabilities=LOW,composite,1953,288,0.1475,1.768,0.2202
+L2-78,2,Attr12=LOW & Attr45=LOW & cash_to_current_liabilities=LOW,composite,2228,328,0.1472,1.765,0.2508
+L2-84,2,Attr56=LOW & working_capital_to_assets=LOW,composite,2275,332,0.1459,1.75,0.2538
+L2-03,2,Attr24=LOW & cash_to_current_liabilities=LOW & working_capit,composite,1999,291,0.1456,1.746,0.2225
+L2-64,2,Attr12=LOW & Attr25=LOW,composite,2736,398,0.1455,1.744,0.3043
+L2-67,2,Attr55=LOW & Attr56=LOW,composite,2202,320,0.1453,1.743,0.2446
+L2-42,2,Attr12=LOW & Attr56=LOW & retained_earnings_to_assets=LOW,composite,2334,338,0.1448,1.736,0.2584
+L2-35,2,Attr12=LOW & Attr58=HIGH & working_capital_to_assets=LOW,composite,2060,298,0.1447,1.735,0.2278
+L2-69,2,Attr12=LOW & Attr24=LOW,composite,3995,577,0.1444,1.732,0.4411
+L2-75,2,Attr12=LOW & Attr30=HIGH,composite,2611,376,0.144,1.727,0.2875
+L2-07,2,Attr24=LOW & Attr55=LOW & working_capital_to_assets=LOW,composite,2484,357,0.1437,1.723,0.2729
+L2-06,2,Attr24=LOW & Attr55=LOW,composite,2568,368,0.1433,1.718,0.2813
+L2-13,2,Attr24=LOW & Attr30=HIGH & cash_to_current_liabilities=LOW,composite,2061,294,0.1426,1.71,0.2248
+L2-49,2,Attr41=LOW & Attr58=HIGH,composite,3196,455,0.1424,1.707,0.3479
+L2-23,2,Attr12=LOW & Attr29=LOW,composite,2054,292,0.1422,1.705,0.2232
+L2-106,2,Attr45=LOW & Attr55=LOW & working_capital_to_assets=LOW,composite,2366,336,0.142,1.703,0.2569
+L2-11,2,Attr45=LOW & Attr55=LOW,composite,2451,348,0.142,1.702,0.2661
+L2-30,2,Attr12=LOW & Attr30=HIGH & Attr58=HIGH,composite,2112,299,0.1416,1.698,0.2286
+L2-09,2,Attr24=LOW & working_capital_to_assets=LOW,composite,2669,378,0.1416,1.698,0.289
+L2-15,2,Attr45=LOW & working_capital_to_assets=LOW,composite,2506,353,0.1409,1.689,0.2699
+L2-54,2,Attr41=LOW & Attr56=LOW,composite,3251,457,0.1406,1.686,0.3494
+L2-80,2,Attr12=LOW & Attr24=LOW & retained_earnings_to_assets=LOW,composite,2768,389,0.1405,1.685,0.2974
+L2-85,2,Attr24=LOW & Attr25=LOW & Attr45=LOW,composite,2256,317,0.1405,1.685,0.2424
+L2-76,2,Attr12=LOW & Attr24=LOW & Attr45=LOW,composite,3694,518,0.1402,1.681,0.396
+L2-73,2,Attr12=LOW & Attr30=HIGH & Attr45=LOW,composite,2438,341,0.1399,1.677,0.2607
+L1-38,1,Attr46,risk-reducing,5176,724,0.1399,1.677,0.5535
+L2-12,2,Attr41=LOW & Attr45=LOW & Attr56=LOW,composite,2723,380,0.1396,1.673,0.2905
+L2-108,2,Attr29=LOW & Attr41=LOW,composite,2373,331,0.1395,1.673,0.2531
+L2-103,2,Attr30=HIGH & Attr56=LOW,composite,2361,329,0.1393,1.671,0.2515
+L1-02,1,Attr16,risk-reducing,5175,721,0.1393,1.671,0.5512
+L2-34,2,Attr41=LOW & Attr56=LOW & Attr58=HIGH,composite,3054,425,0.1392,1.669,0.3249
+L2-36,2,Attr45=LOW & cash_to_current_liabilities=LOW,composite,2394,333,0.1391,1.668,0.2546
+L2-70,2,Attr12=LOW & Attr25=LOW & Attr45=LOW,composite,2485,345,0.1388,1.665,0.2638
+L2-51,2,Attr24=LOW & Attr56=LOW & retained_earnings_to_assets=LOW,composite,2397,332,0.1385,1.661,0.2538
+L2-56,2,Attr24=LOW & Attr45=LOW & Attr56=LOW,composite,2904,402,0.1384,1.66,0.3073
+L2-38,2,Attr12=LOW & Attr58=HIGH & retained_earnings_to_assets=LOW,composite,2511,347,0.1382,1.657,0.2653
+L1-01,1,Attr26,risk-reducing,5175,714,0.138,1.654,0.5459
+L2-71,2,Attr12=LOW & retained_earnings_to_assets=LOW,composite,3009,415,0.1379,1.654,0.3173
+L2-14,2,Attr24=LOW & Attr30=HIGH,composite,2680,369,0.1377,1.651,0.2821
+L1-16,1,Attr39,risk-reducing,5141,707,0.1375,1.649,0.5405
+L2-96,2,Attr25=LOW & Attr56=LOW,composite,2472,340,0.1375,1.649,0.2599
+L1-05,1,Attr35,risk-reducing,5211,715,0.1372,1.645,0.5466
+L2-59,2,Attr24=LOW & Attr56=LOW,composite,3372,461,0.1367,1.639,0.3524
+L2-37,2,Attr58=HIGH & cash_to_current_liabilities=LOW,composite,2217,303,0.1367,1.639,0.2317
+L2-48,2,Attr45=LOW & Attr56=LOW & retained_earnings_to_assets=LOW,composite,2227,304,0.1365,1.637,0.2324
+L2-08,2,Attr24=LOW & cash_to_current_liabilities=LOW,composite,2512,343,0.1365,1.637,0.2622
+L2-43,2,Attr12=LOW & Attr24=LOW & Attr58=HIGH,composite,3316,452,0.1363,1.634,0.3456
+L2-86,2,Attr24=LOW & Attr45=LOW,composite,3851,525,0.1363,1.635,0.4014
+L1-15,1,Attr13,risk-reducing,5175,704,0.136,1.631,0.5382
+L2-112,2,Attr55=LOW & retained_earnings_to_assets=LOW & working_capit,composite,2519,342,0.1358,1.628,0.2615
+L2-20,2,Attr12=LOW & Attr25=LOW & Attr58=HIGH,composite,2296,311,0.1355,1.624,0.2378
+L2-100,2,Attr12=LOW & Attr24=LOW & Attr57=LOW,composite,2888,391,0.1354,1.623,0.2989
+L2-27,2,Attr21=LOW & Attr41=LOW,composite,2185,295,0.135,1.619,0.2255
+L2-111,2,Attr55=LOW & retained_earnings_to_assets=LOW,composite,2607,351,0.1346,1.614,0.2683
+L2-83,2,Attr56=LOW & retained_earnings_to_assets=LOW,composite,2749,369,0.1342,1.61,0.2821
+L2-101,2,Attr25=LOW & Attr45=LOW,composite,2659,356,0.1339,1.605,0.2722
+L2-74,2,Attr12=LOW & Attr45=LOW & retained_earnings_to_assets=LOW,composite,2771,371,0.1339,1.605,0.2836
+L2-02,2,Attr55=LOW & Attr58=HIGH & working_capital_to_assets=LOW,composite,2252,301,0.1337,1.603,0.2301
+L2-47,2,Attr30=HIGH & Attr45=LOW,composite,2608,347,0.1331,1.595,0.2653
+L2-41,2,Attr24=LOW & Attr56=LOW & Attr58=HIGH,composite,3221,428,0.1329,1.593,0.3272
+L2-01,2,Attr55=LOW & Attr58=HIGH,composite,2332,310,0.1329,1.594,0.237
+L2-22,2,Attr24=LOW & Attr25=LOW,composite,2996,397,0.1325,1.589,0.3035
+L2-94,2,Attr24=LOW & Attr45=LOW & retained_earnings_to_assets=LOW,composite,2673,354,0.1324,1.588,0.2706
+L2-113,2,retained_earnings_to_assets=LOW & working_capital_to_assets=,composite,2712,358,0.132,1.583,0.2737
+L2-26,2,Attr58=HIGH & working_capital_to_assets=LOW,composite,2402,316,0.1316,1.577,0.2416
+L2-39,2,Attr24=LOW & Attr58=HIGH & retained_earnings_to_assets=LOW,composite,2493,327,0.1312,1.573,0.25
+L2-62,2,Attr30=HIGH & Attr58=HIGH,composite,2413,316,0.131,1.57,0.2416
+L2-29,2,Attr24=LOW & Attr25=LOW & retained_earnings_to_assets=LOW,composite,2368,309,0.1305,1.565,0.2362
+L2-31,2,Attr56=LOW & Attr58=HIGH & retained_earnings_to_assets=LOW,composite,2498,326,0.1305,1.565,0.2492
+L2-89,2,Attr41=LOW,composite,5176,675,0.1304,1.564,0.5161
+L1-30,1,Attr41,risk-reducing,5175,675,0.1304,1.564,0.5161
+L2-115,2,Attr30=HIGH & cash_to_current_liabilities=LOW & working_capi,composite,2737,355,0.1297,1.555,0.2714
+L2-99,2,Attr45=LOW & retained_earnings_to_assets=LOW,composite,2952,382,0.1294,1.552,0.292
+L2-107,2,Attr24=LOW & Attr45=LOW & Attr57=LOW,composite,2823,365,0.1293,1.55,0.2791
+L2-24,2,Attr12=LOW & Attr56=LOW,composite,3851,497,0.1291,1.548,0.38
+L2-40,2,Attr45=LOW & Attr58=HIGH & retained_earnings_to_assets=LOW,composite,2409,311,0.1291,1.548,0.2378
+L1-22,1,Attr19,risk-reducing,5174,666,0.1287,1.543,0.5092
+L1-28,1,Attr12,risk-reducing,5176,666,0.1287,1.543,0.5092
+L2-55,2,Attr12=LOW,composite,5176,666,0.1287,1.543,0.5092
+L2-44,2,Attr24=LOW & Attr45=LOW & Attr58=HIGH,composite,3145,403,0.1281,1.537,0.3081
+L2-45,2,Attr24=LOW & Attr58=HIGH,composite,3560,455,0.1278,1.533,0.3479
+L1-08,1,ebit_to_assets,risk-reducing,5181,661,0.1276,1.53,0.5054
+L1-09,1,Attr18,risk-reducing,5181,661,0.1276,1.53,0.5054
+L1-07,1,Attr14,risk-reducing,5181,661,0.1276,1.53,0.5054
+L1-23,1,Attr23,risk-reducing,5176,658,0.1271,1.524,0.5031
+L2-114,2,Attr30=HIGH & working_capital_to_assets=LOW,composite,3029,384,0.1268,1.52,0.2936
+L2-05,2,Attr58=HIGH & retained_earnings_to_assets=LOW,composite,2779,352,0.1267,1.519,0.2691
+L1-10,1,net_profit_to_assets,risk-reducing,5172,654,0.1265,1.516,0.5
+L2-109,2,Attr24=LOW & Attr57=LOW,composite,3270,411,0.1257,1.507,0.3142
+L1-13,1,Attr11,risk-reducing,5181,646,0.1247,1.495,0.4939
+L2-60,2,Attr12=LOW & Attr21=LOW,composite,2469,308,0.1247,1.496,0.2355
+L2-17,2,Attr12=LOW & Attr45=LOW & Attr56=LOW,composite,3555,443,0.1246,1.494,0.3387
+L2-110,2,Attr30=HIGH & retained_earnings_to_assets=LOW,composite,2758,343,0.1244,1.491,0.2622
+L2-46,2,Attr25=LOW & Attr58=HIGH,composite,2612,325,0.1244,1.492,0.2485
+L2-50,2,Attr12=LOW & Attr45=LOW,composite,4788,595,0.1243,1.49,0.4549
+L1-25,1,Attr31,risk-reducing,5176,642,0.124,1.487,0.4908
+L2-21,2,Attr12=LOW & Attr56=LOW & Attr58=HIGH,composite,3815,472,0.1237,1.484,0.3609
+L2-19,2,Attr24=LOW,composite,5176,638,0.1233,1.478,0.4878
+L1-19,1,Attr24,risk-reducing,5175,638,0.1233,1.478,0.4878
+L2-25,2,Attr45=LOW & Attr56=LOW,composite,3696,447,0.1209,1.45,0.3417
+L2-32,2,Attr12=LOW & Attr58=HIGH,composite,4220,508,0.1204,1.443,0.3884
+L1-17,1,Attr25,risk-reducing,5176,622,0.1202,1.441,0.4755
+L1-42,1,Attr54,risk-reducing,5177,622,0.1201,1.441,0.4755
+L1-36,1,Attr45,risk-reducing,5177,616,0.119,1.427,0.4709
+L2-63,2,Attr45=LOW,composite,5176,616,0.119,1.427,0.4709
+L2-87,2,Attr12=LOW & Attr57=LOW,composite,3978,471,0.1184,1.42,0.3601
+L1-27,1,Attr49,risk-reducing,5174,609,0.1177,1.411,0.4656
+L1-12,1,working_capital_to_assets,risk-reducing,5175,608,0.1175,1.409,0.4648
+L1-45,1,current_assets_to_short_liabilities,risk-reducing,5177,607,0.1172,1.406,0.4641
+L1-43,1,Attr28,risk-reducing,5176,606,0.1171,1.404,0.4633
+L1-29,1,Attr55,risk-reducing,5176,606,0.1171,1.404,0.4633
+L1-24,1,Attr48,risk-reducing,5179,604,0.1166,1.398,0.4618
+L1-14,1,Attr38,risk-reducing,5178,603,0.1165,1.396,0.461
+L2-18,2,Attr24=LOW & retained_earnings_to_assets=LOW,composite,3697,430,0.1163,1.395,0.3287
+L2-28,2,Attr12=LOW & Attr45=LOW & Attr58=HIGH,composite,3883,450,0.1159,1.39,0.344
+L2-16,2,Attr45=LOW & Attr56=LOW & Attr58=HIGH,composite,3653,422,0.1155,1.385,0.3226
+L2-81,2,Attr12=LOW & Attr45=LOW & Attr57=LOW,composite,3718,428,0.1151,1.38,0.3272
+L1-21,1,Attr42,risk-reducing,5586,636,0.1139,1.365,0.4862
+L2-72,2,Attr56=LOW & Attr58=HIGH,composite,4459,508,0.1139,1.366,0.3884
+L1-34,1,Attr56,risk-reducing,5178,589,0.1138,1.364,0.4503
+L2-52,2,Attr12=LOW & Attr56=LOW & Attr57=LOW,composite,2891,329,0.1138,1.365,0.2515
+L2-68,2,Attr56=LOW,composite,5176,588,0.1136,1.362,0.4495
+L1-48,1,book_value_equity_to_liabilities,risk-reducing,5177,588,0.1136,1.362,0.4495
+L1-06,1,Attr22,risk-reducing,5652,642,0.1136,1.362,0.4908
+L1-33,1,Attr63,risk-reducing,5176,587,0.1134,1.36,0.4488
+L1-32,1,retained_earnings_to_assets,risk-reducing,5173,586,0.1133,1.358,0.448
+L1-04,1,Attr51,risk-increasing,5174,586,0.1133,1.358,0.448
+L1-18,1,equity_to_assets,risk-reducing,5177,586,0.1132,1.357,0.448
+L1-41,1,Attr53,risk-reducing,5175,586,0.1132,1.358,0.448
+L1-11,1,Attr62,risk-increasing,5177,585,0.113,1.355,0.4472
+L1-49,1,Attr17,risk-reducing,5176,585,0.113,1.355,0.4472
+L1-03,1,total_liabilities_to_assets,risk-increasing,5178,585,0.113,1.355,0.4472
+L1-26,1,Attr30,risk-increasing,5176,576,0.1113,1.334,0.4404
+L1-20,1,Attr32,risk-increasing,5176,575,0.1111,1.332,0.4396
+L1-44,1,Attr50,risk-reducing,5176,573,0.1107,1.327,0.4381
+L2-33,2,Attr45=LOW & Attr58=HIGH,composite,4092,453,0.1107,1.327,0.3463
+L2-104,2,Attr45=LOW & Attr57=LOW,composite,4062,449,0.1105,1.325,0.3433
+L2-105,2,Attr56=LOW & Attr57=LOW,composite,3264,360,0.1103,1.323,0.2752
+L1-46,1,Attr57,risk-reducing,5176,568,0.1097,1.316,0.4343
+L1-39,1,cash_to_current_liabilities,risk-reducing,5176,561,0.1084,1.3,0.4289
+L2-57,2,Attr12=LOW & Attr57=LOW & Attr58=HIGH,composite,3172,342,0.1078,1.293,0.2615
+L2-53,2,Attr45=LOW & Attr56=LOW & Attr57=LOW,composite,2820,303,0.1074,1.288,0.2317
+L1-40,1,Attr58,risk-increasing,5167,552,0.1068,1.281,0.422
+L2-10,2,Attr58=HIGH,composite,5178,552,0.1066,1.278,0.422
+L2-82,2,Attr56=LOW & Attr57=LOW & Attr58=HIGH,composite,3112,328,0.1054,1.264,0.2508
+L1-31,1,Attr52,risk-increasing,5175,535,0.1034,1.24,0.409
+L1-47,1,Attr33,risk-reducing,5178,531,0.1025,1.23,0.406
+L2-97,2,Attr57=LOW & Attr58=HIGH,composite,3540,362,0.1023,1.226,0.2768
+L2-58,2,Attr45=LOW & Attr57=LOW & Attr58=HIGH,composite,3133,310,0.0989,1.186,0.237
+L1-50,1,Attr47,risk-reducing,5176,489,0.0945,1.133,0.3739
+L1-35,1,Attr29,risk-reducing,5176,483,0.0933,1.119,0.3693
+L1-37,1,Attr21,risk-reducing,5176,458,0.0885,1.061,0.3502

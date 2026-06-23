@@ -1,0 +1,17 @@
+feature,definition,OR_mle,rank_biserial,direction
+working_capital_to_assets,Attr3  — working capital / total assets,0.7089,0.1966,risk-reducing
+Attr25,equity / total assets (alt),0.7248,0.2313,risk-reducing
+Attr24,gross profit (3-year avg) / total assets,0.7329,0.2714,risk-reducing
+Attr30,total liabilities / cash,1.2331,-0.1653,risk-increasing
+Attr12,gross profit / short-term liabilities,0.7687,0.2507,risk-reducing
+Attr55,profit on operating activities (×1000) / short-term liabilities,0.7743,0.217,risk-reducing
+Attr41,short-term liabilities / total assets,0.7762,0.1672,risk-reducing
+retained_earnings_to_assets,Attr6  — retained earnings / total assets,0.8055,0.1803,risk-reducing
+Attr56,net profit / total assets - ROA,0.8341,0.1283,risk-reducing
+Attr29,log(total assets),0.8421,0.0824,risk-reducing
+Attr45,profit on sales / sales,0.8705,0.2024,risk-reducing
+Attr21,sales (t) / sales (t-1),0.8728,0.0794,risk-reducing
+cash_to_current_liabilities,Attr5  — cash / current liabilities,0.8871,0.1589,risk-reducing
+Attr58,total costs / total sales,1.1079,-0.0701,risk-increasing
+Attr57,total assets / current liabilities,0.9128,0.0979,risk-reducing
+Attr47,(current assets - short-term liabilities) / (current assets - inventory - short-term liabilities),0.9376,0.0546,risk-reducing

@@ -1,0 +1,24 @@
+category,step,component,description,trigger,output
+Process flow,1,Input,Evaluator proposes an upgrade override (grade increase),Evaluator action,Override request with firm ID and proposed grade
+Process flow,2,Data retrieval,System retrieves firm's latest financial data from database,Automatic on override input,Financial feature vector (64 variables)
+Process flow,3,Layer 1 check,"System checks all 50 single-variable warning factors. For each factor, firm value is compared to the distress tertile threshold. Source: NB03 Firth logistic regression (FDR q < 0.05). OR range: 0.629–1.368.",Firm value <= p33 (risk-reducing) or >= p67 (risk-increasing),List of triggered L1 factors (0 to 50 possible)
+Process flow,4,Layer 2 check,"System checks all 115 composite-pattern warning factors. For each rule, system verifies whether all antecedent conditions are met. Source: NB04 risky-specific association rules (confidence >= 0.75, lift >= 2.0x). Confidence range: 0.752–0.942.",Firm simultaneously satisfies all antecedent bin conditions,List of triggered L2 rules (0 to 115 possible)
+Process flow,5,Warning display,"If any L1 or L2 factor is triggered, system displays warning to evaluator. L1 message format: '[Factor ID] [Variable] is in the [bottom/top] 33% (value=X, threshold=Y). Among upgrade-overridden firms with this condition, post-upgrade default rate is Z%.' L2 message format: '[Factor ID] Pattern [A=LOW & B=HIGH] detected. Confidence=Z% (vs W% in safe group). Lift=Nx vs baseline.'",One or more factors triggered in L1 or L2,Warning panel shown to evaluator before override is finalised
+Process flow,6,No warning,No factors triggered. Override proceeds without system intervention.,Zero factors triggered in both L1 and L2,Override finalised normally
+Process flow,7,Evaluator decision,Evaluator reviews triggered warnings and decides to confirm or revise the upgrade. Warning is advisory — evaluator retains final authority. Override decision and triggered warning IDs are logged for audit.,Evaluator action after reviewing warnings,Final grade recorded; warning response logged
+L1 design,L1-P1,Layer 1 — factor source,NB03 univariate Firth logistic regression on upgrade_cohort,—,—
+L1 design,L1-P2,Layer 1 — inclusion criterion,Firth penalised logistic regression FDR q < 0.05 (Benjamini-Hochberg),—,—
+L1 design,L1-P3,Layer 1 — factor count,"N = 50 factors (43 risk-reducing, 7 risk-increasing)",—,—
+L1 design,L1-P4,Layer 1 — trigger threshold,"Distress tertile: bottom 33% for risk-reducing variables (OR < 1); top 33% for risk-increasing variables (OR > 1). Thresholds computed on full upgrade_cohort (N=15,684).",—,—
+L1 design,L1-P5,Layer 1 — OR range,Minimum OR: 0.6286 | Maximum OR: 1.3683 | Median |rank-biserial|: 0.1930,—,—
+L2 design,L2-P1,Layer 2 — factor source,NB04 risky-specific association rules (Apriori on upgrade_cohort),—,—
+L2 design,L2-P2,Layer 2 — inclusion criteria,confidence >= 0.75 AND lift_vs_baseline >= 2.0x AND safe antecedent present (conf_diff comparison valid) AND distress item in antecedent,—,—
+L2 design,L2-P3,Layer 2 — factor count,"N = 115 composite rules (1-condition: 6, 2-condition: 55, 3-condition: 54)",—,—
+L2 design,L2-P4,Layer 2 — confidence range,Min: 0.7521 | Max: 0.9419 | Mean: 0.8601,—,—
+L2 design,L2-P5,Layer 2 — lift range,Min: 9.02x | Max: 11.29x | Mean: 10.31x,—,—
+L2 design,L2-P6,Layer 2 — variable discretisation,"Each variable binned into LOW/MID/HIGH using population tertiles (p33, p67) computed on full upgrade_cohort. Thresholds stored in NB04 bin_log.",—,—
+System parameters,SYS-1,Warning mode,Advisory (non-blocking). Evaluator sees warnings but retains override authority. System logs which factors were triggered and whether evaluator proceeded.,—,—
+System parameters,SYS-2,Audit trail,"Every override stores: firm ID, proposed grade, system grade, triggered L1 factor IDs, triggered L2 rule IDs, evaluator decision, timestamp.",—,—
+System parameters,SYS-3,Factor library update,"Library is re-estimated annually using rolling 3-year override history. Thresholds (p33, p67) and association rules are recalibrated each cycle.",—,—
+System parameters,SYS-4,Total factors,L1: 50 single-variable factors + L2: 115 composite rules = 165 total warning factors in library.,—,—
+System parameters,SYS-5,Baseline default rate,"Post-upgrade default rate in calibration sample: 8.34% (N=15,684 upgrade-overridden firm-years). Used as reference for lift calculation in L2 factor descriptions.",—,—
