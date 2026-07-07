@@ -1,0 +1,24 @@
+feature,definition,OR_mle,rank_biserial,direction
+Attr49,(net profit + depreciation) / total liabilities,0.7865340941612925,0.15800069841421105,risk-reducing
+Attr38,total liabilities / total assets (alt),0.7348841008852287,0.1774831007584753,risk-reducing
+retained_earnings_to_assets,Attr6  — retained earnings / total assets,0.799316255994948,0.1760590786951065,risk-reducing
+working_capital_to_assets,Attr3  — working capital / total assets,0.7234737861109038,0.18683794846781465,risk-reducing
+Attr25,equity / total assets (alt),0.7448962390145879,0.20770409180447913,risk-reducing
+Attr24,gross profit (3-year avg) / total assets,0.7506278517239153,0.26499090619557353,risk-reducing
+Attr35,total sales / total assets (alt),0.6514046546706401,0.2658817134595829,risk-reducing
+Attr13,gross profit + depreciation / sales,0.7299734493412835,0.26810093401929225,risk-reducing
+Attr30,total liabilities / cash,1.1917855853200905,-0.13618356131061127,risk-increasing
+Attr52,short-term liabilities / sales,1.1799368660723988,-0.10452287463276821,risk-increasing
+Attr29,log(total assets),0.8249890876279178,0.09336156978938481,risk-reducing
+Attr56,net profit / total assets - ROA,0.8325989824430398,0.1494492778246591,risk-reducing
+Attr55,profit on operating activities (×1000) / short-term liabilities,0.8169267958952351,0.20299120650114544,risk-reducing
+Attr21,sales (t) / sales (t-1),0.8480793535146316,0.0897577461910094,risk-reducing
+Attr41,short-term liabilities / total assets,0.8365807899174682,0.16499408792997305,risk-reducing
+Attr12,gross profit / short-term liabilities,0.8305502376414743,0.2474832951107243,risk-reducing
+Attr58,total costs / total sales,1.1181986359446883,-0.09240030983510161,risk-increasing
+cash_to_current_liabilities,Attr5  — cash / current liabilities,0.9017262131920996,0.1321763000598103,risk-reducing
+Attr57,total assets / current liabilities,0.9187916051509548,0.08614161884138472,risk-reducing
+Attr63,sales / short-term liabilities,0.9053509529155089,0.1551629204748214,risk-reducing
+Attr47,(current assets - short-term liabilities) / (current assets - inventory - short-term liabilities),0.9162869972642438,0.0647451603155278,risk-reducing
+Attr54,total liabilities / (net profit + depreciation),0.917089554612477,0.19904906892733853,risk-reducing
+Attr15,total liabilities × 365 / (gross profit + depreciation),0.9312178100127034,0.14552469464753903,risk-reducing

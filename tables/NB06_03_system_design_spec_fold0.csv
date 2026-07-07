@@ -1,0 +1,18 @@
+category,step,component,description,trigger,output
+Process flow,1,Input,Evaluator proposes an upgrade override (grade increase),Evaluator action,Override request with firm ID and proposed grade
+Process flow,2,Data retrieval,System retrieves firm's latest financial data from database,Automatic on override input,Financial feature vector
+Process flow,3,Layer 1 check,"System checks all 44 single-variable warning factors (fold 0 training-partition estimate). For each factor, firm value is compared to the distress tertile threshold. Source: NB03 Firth logistic regression (FDR q < 0.05). OR range: 0.656–1.351.",Firm value <= p33 (risk-reducing) or >= p67 (risk-increasing),List of triggered L1 factors (0 to 44 possible)
+Process flow,4,Layer 2 check,"System checks all 29 composite-pattern warning factors (fold 0 training-partition estimate). Source: NB04 group-filtered, risky-specific association rules (confidence >= 0.75, lift >= 2.0x).",Firm simultaneously satisfies all antecedent bin conditions,List of triggered L2 rules (0 to 29 possible)
+Process flow,5,Warning display,"If any L1 or L2 factor is triggered, system displays warning to evaluator.",One or more factors triggered in L1 or L2,Warning panel shown to evaluator before override is finalised
+Process flow,6,No warning,No factors triggered. Override proceeds without system intervention.,Zero factors triggered in both L1 and L2,Override finalised normally
+Process flow,7,Evaluator decision,Evaluator reviews triggered warnings; warning is advisory only.,Evaluator action after reviewing warnings,Final grade recorded; warning response logged
+L1 design,L1-P1,Layer 1 — factor source,NB03 univariate Firth logistic regression on fold 0 training partition,—,—
+L1 design,L1-P2,Layer 1 — inclusion criterion,"Firth FDR q < 0.05 (Benjamini-Hochberg), after exact-duplicate removal",—,—
+L1 design,L1-P3,Layer 1 — factor count,"N = 44 factors (37 risk-reducing, 7 risk-increasing)",—,—
+L1 design,L1-P4,Layer 1 — trigger threshold,Distress tertile computed on fold 0 training partition.,—,—
+L2 design,L2-P1,Layer 2 — factor source,"NB04 group-filtered, risky-specific association rules, fold 0 training partition",—,—
+L2 design,L2-P2,Layer 2 — inclusion criteria,"confidence >= 0.75 AND lift_vs_baseline >= 2.0x, applied to rules already surviving NB04's group-redundancy filter",—,—
+L2 design,L2-P3,Layer 2 — factor count,N = 29 composite rules,—,—
+System parameters,SYS-1,Warning mode,Advisory (non-blocking).,—,—
+System parameters,SYS-4,Total factors,"L1: 44 + L2: 29 = 73 total, fold 0.",—,—
+System parameters,SYS-5,Baseline default rate,"Fold 0 training partition: 8.73% (N=12,537).",—,—

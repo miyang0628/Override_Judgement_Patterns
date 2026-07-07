@@ -1,0 +1,23 @@
+feature,definition,OR_mle,rank_biserial,direction
+working_capital_to_assets,Attr3  — working capital / total assets,0.7444475445416241,0.16582094581396256,risk-reducing
+Attr49,(net profit + depreciation) / total liabilities,0.789936754323929,0.14703090205883507,risk-reducing
+Attr38,total liabilities / total assets (alt),0.7352618124082673,0.17806269614928838,risk-reducing
+retained_earnings_to_assets,Attr6  — retained earnings / total assets,0.8117114460459857,0.18180483389980595,risk-reducing
+Attr25,equity / total assets (alt),0.7435183620471951,0.21236643942649525,risk-reducing
+net_profit_to_assets,Attr1  — net profit / total assets,0.7060394319751925,0.23171587490721568,risk-reducing
+Attr13,gross profit + depreciation / sales,0.7212088338302395,0.2702293400268261,risk-reducing
+Attr24,gross profit (3-year avg) / total assets,0.7759687578330521,0.23727113203370187,risk-reducing
+Attr35,total sales / total assets (alt),0.6579806498308639,0.24878843223815295,risk-reducing
+Attr30,total liabilities / cash,1.1955827573658966,-0.15102502246356986,risk-increasing
+Attr52,short-term liabilities / sales,1.176097349467739,-0.11417198955606778,risk-increasing
+Attr55,profit on operating activities (×1000) / short-term liabilities,0.7716224868774296,0.19107553294005808,risk-reducing
+Attr41,short-term liabilities / total assets,0.7837873494556246,0.16068411337266086,risk-reducing
+Attr56,net profit / total assets - ROA,0.8384907977154872,0.11434258246409079,risk-reducing
+Attr29,log(total assets),0.8369296975945036,0.0872030088161373,risk-reducing
+Attr12,gross profit / short-term liabilities,0.7975300170505051,0.23712788608040003,risk-reducing
+Attr57,total assets / current liabilities,0.8733643665547185,0.10015854722558637,risk-reducing
+Attr63,sales / short-term liabilities,0.878098410526305,0.1657447650115248,risk-reducing
+Attr21,sales (t) / sales (t-1),0.9012234834040436,0.08203484132255079,risk-reducing
+Attr58,total costs / total sales,1.0939539179355202,-0.05981560339102243,risk-increasing
+Attr15,total liabilities × 365 / (gross profit + depreciation),0.9217062650570743,0.13607869086221036,risk-reducing
+cash_to_current_liabilities,Attr5  — cash / current liabilities,0.931380130099064,0.1333174623328255,risk-reducing

@@ -1,0 +1,74 @@
+,layer,variable,definition,direction,OR_mle,rank_biserial,firth_fdr_q,trigger_condition,trigger_pct,antecedents_str,confidence,lift_vs_baseline,conditions_detail,conf_diff
+L1-01,1,Attr51,Attr51,risk-increasing,1.3354,-0.1597,0.0,>= 0.6068,top 33%,Attr51,,,,
+L1-02,1,equity_to_assets,equity_to_assets,risk-reducing,0.7398,0.1724,0.0,<= 0.2269,bottom 33%,equity_to_assets,,,,
+L1-03,1,total_liabilities_to_assets,total_liabilities_to_assets,risk-increasing,1.3512,-0.1736,0.0,>= 0.7539,top 33%,total_liabilities_to_assets,,,,
+L1-04,1,Attr52,short-term liabilities / sales,risk-increasing,1.2267,-0.1273,0.0,>= 0.3546,top 33%,Attr52,,,,
+L1-05,1,Attr62,Attr62,risk-increasing,1.3015,-0.177,0.0,>= 126.7684,top 33%,Attr62,,,,
+L1-06,1,Attr49,(net profit + depreciation) / total liabilities,risk-reducing,0.7801,0.1647,0.0,<= -0.0220,bottom 33%,Attr49,,,,
+L1-07,1,Attr38,total liabilities / total assets (alt),risk-reducing,0.7269,0.1858,0.0,<= 0.3427,bottom 33%,Attr38,,,,
+L1-08,1,working_capital_to_assets,Attr3  — working capital / total assets,risk-reducing,0.7147,0.1893,0.0,<= -0.0200,bottom 33%,working_capital_to_assets,,,,
+L1-09,1,Attr30,total liabilities / cash,risk-increasing,1.2399,-0.164,0.0,>= 0.4179,top 33%,Attr30,,,,
+L1-10,1,Attr48,Attr48,risk-reducing,0.763,0.1716,0.0,<= -0.0382,bottom 33%,Attr48,,,,
+L1-11,1,Attr11,Attr11,risk-reducing,0.7261,0.2175,0.0,<= 0.0034,bottom 33%,Attr11,,,,
+L1-12,1,Attr22,Attr22,risk-reducing,0.7051,0.2178,0.0,<= 0.0000,bottom 33%,Attr22,,,,
+L1-13,1,Attr25,equity / total assets (alt),risk-reducing,0.7391,0.2192,0.0,<= 0.0901,bottom 33%,Attr25,,,,
+L1-14,1,Attr31,Attr31,risk-reducing,0.7746,0.2233,0.0,<= -0.0001,bottom 33%,Attr31,,,,
+L1-15,1,Attr42,Attr42,risk-reducing,0.7473,0.2099,0.0,<= 0.0000,bottom 33%,Attr42,,,,
+L1-16,1,Attr23,Attr23,risk-reducing,0.7566,0.2434,0.0,<= -0.0058,bottom 33%,Attr23,,,,
+L1-17,1,Attr13,gross profit + depreciation / sales,risk-reducing,0.7212,0.2702,0.0,<= 0.0099,bottom 33%,Attr13,,,,
+L1-18,1,Attr24,gross profit (3-year avg) / total assets,risk-reducing,0.7437,0.2677,0.0,<= -0.0027,bottom 33%,Attr24,,,,
+L1-19,1,net_profit_to_assets,net_profit_to_assets,risk-reducing,0.7186,0.2403,0.0,<= -0.0104,bottom 33%,net_profit_to_assets,,,,
+L1-20,1,Attr39,Attr39,risk-reducing,0.7174,0.2635,0.0,<= 0.0000,bottom 33%,Attr39,,,,
+L1-21,1,Attr19,Attr19,risk-reducing,0.7474,0.249,0.0,<= -0.0049,bottom 33%,Attr19,,,,
+L1-22,1,Attr35,total sales / total assets (alt),risk-reducing,0.6558,0.2672,0.0,<= -0.0008,bottom 33%,Attr35,,,,
+L1-23,1,Attr14,Attr14,risk-reducing,0.7102,0.2449,0.0,<= -0.0091,bottom 33%,Attr14,,,,
+L1-24,1,Attr18,Attr18,risk-reducing,0.7103,0.2449,0.0,<= -0.0091,bottom 33%,Attr18,,,,
+L1-25,1,ebit_to_assets,ebit_to_assets,risk-reducing,0.7102,0.2449,0.0,<= -0.0091,bottom 33%,ebit_to_assets,,,,
+L1-26,1,Attr32,Attr32,risk-increasing,1.2809,-0.1658,0.0,>= 130.2812,top 33%,Attr32,,,,
+L1-27,1,retained_earnings_to_assets,Attr6  — retained earnings / total assets,risk-reducing,0.8172,0.1691,2.343804163097553e-15,<= -0.0013,bottom 33%,retained_earnings_to_assets,,,,
+L1-28,1,Attr55,profit on operating activities (×1000) / short-term liabilities,risk-reducing,0.7809,0.2063,1.5218622195778412e-08,<= -51.2765,bottom 33%,Attr55,,,,
+L1-29,1,Attr41,short-term liabilities / total assets,risk-reducing,0.7986,0.161,9.420502249544085e-08,<= 0.0683,bottom 33%,Attr41,,,,
+L1-30,1,Attr29,log(total assets),risk-reducing,0.8438,0.0834,1.420255610451449e-07,<= 3.5420,bottom 33%,Attr29,,,,
+L1-31,1,Attr56,net profit / total assets - ROA,risk-reducing,0.8597,0.1184,8.40586467421381e-07,<= 0.0003,bottom 33%,Attr56,,,,
+L1-32,1,Attr16,Attr16,risk-reducing,0.7881,0.281,0.0001174770688779,<= 0.0265,bottom 33%,Attr16,,,,
+L1-33,1,Attr21,sales (t) / sales (t-1),risk-reducing,0.8773,0.0833,0.0002410978090972,<= 0.9590,bottom 33%,Attr21,,,,
+L1-34,1,Attr12,gross profit / short-term liabilities,risk-reducing,0.8452,0.2435,0.0002427140692562,<= -0.0172,bottom 33%,Attr12,,,,
+L1-35,1,Attr26,Attr26,risk-reducing,0.8129,0.2794,0.0003540381538677,<= 0.0238,bottom 33%,Attr26,,,,
+L1-36,1,cash_to_current_liabilities,Attr5  — cash / current liabilities,risk-reducing,0.8933,0.1528,0.0004115873463745,<= -58.4638,bottom 33%,cash_to_current_liabilities,,,,
+L1-37,1,Attr57,total assets / current liabilities,risk-reducing,0.8965,0.1099,0.0005063237459757,<= 0.0041,bottom 33%,Attr57,,,,
+L1-38,1,Attr63,sales / short-term liabilities,risk-reducing,0.8736,0.1776,0.0009784297902771,<= 2.8559,bottom 33%,Attr63,,,,
+L1-39,1,Attr53,short-term liabilities / total assets,risk-reducing,0.8738,0.1706,0.0034544860418295,<= 0.5844,bottom 33%,Attr53,,,,
+L1-40,1,Attr54,Attr54,risk-reducing,0.8809,0.1934,0.0050106053649567,<= 0.8571,bottom 33%,Attr54,,,,
+L1-41,1,Attr28,Attr28,risk-reducing,0.8837,0.183,0.0052754224390365,<= -0.0330,bottom 33%,Attr28,,,,
+L1-42,1,Attr58,total costs / total sales,risk-increasing,1.077,-0.057,0.0241394853708458,>= 0.9991,top 33%,Attr58,,,,
+L1-43,1,Attr46,(current assets - inventory) / short-term liabilities,risk-reducing,0.9162,0.29,0.0372339256330466,<= 0.5306,bottom 33%,Attr46,,,,
+L1-44,1,Attr33,Attr33,risk-reducing,0.9284,0.1264,0.047925653708395,<= 2.8113,bottom 33%,Attr33,,,,
+L2-01,2,,,,,,,,,Attr30=HIGH & Attr38=LOW,0.8223,9.4234,Attr30 >= 0.4179 AND Attr38 <= 0.3427,0.1457
+L2-02,2,,,,,,,,,Attr38=LOW & retained_earnings_to_assets=LOW,0.8172,9.365,Attr38 <= 0.3427 AND retained_earnings_to_assets <= -0.0013,0.199
+L2-03,2,,,,,,,,,Attr38=LOW & Attr63=LOW,0.8066,9.243,Attr38 <= 0.3427 AND Attr63 <= 2.8559,0.1796
+L2-04,2,,,,,,,,,Attr63=LOW & retained_earnings_to_assets=LOW,0.8043,9.2176,Attr63 <= 2.8559 AND retained_earnings_to_assets <= -0.0013,0.1542
+L2-05,2,,,,,,,,,Attr25=LOW & Attr38=LOW,0.8036,9.2094,Attr25 <= 0.0901 AND Attr38 <= 0.3427,0.1996
+L2-06,2,,,,,,,,,Attr57=LOW,0.8025,9.1967,Attr57 <= 0.0041,0.1136
+L2-07,2,,,,,,,,,Attr24=LOW & Attr38=LOW,0.8021,9.1921,Attr24 <= -0.0027 AND Attr38 <= 0.3427,0.1644
+L2-08,2,,,,,,,,,Attr38=LOW & Attr52=HIGH,0.8007,9.1757,Attr38 <= 0.3427 AND Attr52 >= 0.3546,0.1837
+L2-09,2,,,,,,,,,Attr35=LOW & Attr38=LOW,0.7993,9.1602,Attr35 <= -0.0008 AND Attr38 <= 0.3427,0.1697
+L2-10,2,,,,,,,,,Attr30=HIGH & retained_earnings_to_assets=LOW,0.7921,9.0775,Attr30 >= 0.4179 AND retained_earnings_to_assets <= -0.0013,0.1417
+L2-11,2,,,,,,,,,Attr25=LOW & Attr63=LOW,0.7912,9.0675,Attr25 <= 0.0901 AND Attr63 <= 2.8559,0.1338
+L2-12,2,,,,,,,,,Attr25=LOW & Attr52=HIGH,0.79,9.0536,Attr25 <= 0.0901 AND Attr52 >= 0.3546,0.1325
+L2-13,2,,,,,,,,,Attr12=LOW & Attr38=LOW,0.7869,9.0182,Attr12 <= -0.0172 AND Attr38 <= 0.3427,0.1477
+L2-14,2,,,,,,,,,Attr25=LOW & Attr30=HIGH,0.7803,8.9424,Attr25 <= 0.0901 AND Attr30 >= 0.4179,0.1323
+L2-15,2,,,,,,,,,Attr35=LOW & Attr52=HIGH,0.7774,8.9087,Attr35 <= -0.0008 AND Attr52 >= 0.3546,0.1178
+L2-16,2,,,,,,,,,Attr13=LOW & Attr38=LOW,0.776,8.8925,Attr13 <= 0.0099 AND Attr38 <= 0.3427,0.1929
+L2-17,2,,,,,,,,,Attr30=HIGH & Attr49=LOW,0.7679,8.8002,Attr30 >= 0.4179 AND Attr49 <= -0.0220,0.1225
+L2-18,2,,,,,,,,,Attr53=LOW & cash_to_current_liabilities=LOW,0.7673,8.793,Attr53 <= 0.5844 AND cash_to_current_liabilities <= -58.4638,0.1196
+L2-19,2,,,,,,,,,Attr49=LOW & Attr63=LOW,0.7661,8.7794,Attr49 <= -0.0220 AND Attr63 <= 2.8559,0.1139
+L2-20,2,,,,,,,,,Attr30=HIGH & Attr35=LOW,0.761,8.721,Attr30 >= 0.4179 AND Attr35 <= -0.0008,0.1165
+L2-21,2,,,,,,,,,Attr55=LOW & Attr63=LOW,0.7596,8.705,Attr55 <= -51.2765 AND Attr63 <= 2.8559,0.1011
+L2-22,2,,,,,,,,,Attr35=LOW & Attr53=LOW,0.7584,8.691,Attr35 <= -0.0008 AND Attr53 <= 0.5844,0.1101
+L2-23,2,,,,,,,,,Attr13=LOW & Attr63=LOW,0.7581,8.6873,Attr13 <= 0.0099 AND Attr63 <= 2.8559,0.1125
+L2-24,2,,,,,,,,,Attr12=LOW & Attr53=LOW,0.7578,8.6841,Attr12 <= -0.0172 AND Attr53 <= 0.5844,0.1283
+L2-25,2,,,,,,,,,Attr13=LOW & Attr30=HIGH,0.7556,8.6593,Attr13 <= 0.0099 AND Attr30 >= 0.4179,0.1092
+L2-26,2,,,,,,,,,retained_earnings_to_assets=LOW & working_capital_to_assets=LOW,0.7552,8.6541,retained_earnings_to_assets <= -0.0013 AND working_capital_to_assets <= -0.0200,0.1096
+L2-27,2,,,,,,,,,Attr52=HIGH & Attr55=LOW,0.755,8.6525,Attr52 >= 0.3546 AND Attr55 <= -51.2765,0.1061
+L2-28,2,,,,,,,,,cash_to_current_liabilities=LOW & working_capital_to_assets=LOW,0.7522,8.6199,cash_to_current_liabilities <= -58.4638 AND working_capital_to_assets <= -0.0200,0.1271
+L2-29,2,,,,,,,,,Attr35=LOW & Attr63=LOW,0.7516,8.6126,Attr35 <= -0.0008 AND Attr63 <= 2.8559,0.1302

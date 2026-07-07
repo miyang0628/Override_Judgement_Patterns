@@ -1,0 +1,6 @@
+warning_level,n_firms_train,n_defaulters_train,default_rate_train,lift_train,n_firms_holdout,n_defaulters_holdout,default_rate_holdout,lift_holdout
+No warning,732,20,0.0273,0.313,194,5,0.0258,0.351
+Low (1–4),3132,148,0.0473,0.542,763,24,0.0315,0.429
+Moderate (5–14),2749,219,0.0797,0.913,688,36,0.0523,0.713
+High (15–29),2657,241,0.0907,1.039,691,63,0.0912,1.243
+Very high (30+),3267,466,0.1426,1.635,827,104,0.1258,1.715

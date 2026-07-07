@@ -1,0 +1,25 @@
+feature,group_id,group_members
+Attr49,7,Attr49 & Attr13 & Attr35 & Attr24 & Attr56 & Attr26 & Attr41 & Attr58 & Attr45
+Attr38,6,Attr38
+Attr25,3,Attr25
+Attr13,7,Attr49 & Attr13 & Attr35 & Attr24 & Attr56 & Attr26 & Attr41 & Attr58 & Attr45
+Attr35,7,Attr49 & Attr13 & Attr35 & Attr24 & Attr56 & Attr26 & Attr41 & Attr58 & Attr45
+working_capital_to_assets,5,working_capital_to_assets & Attr55 & Attr46
+Attr30,1,Attr30 & Attr52 & Attr63 & cash_to_current_liabilities
+Attr24,7,Attr49 & Attr13 & Attr35 & Attr24 & Attr56 & Attr26 & Attr41 & Attr58 & Attr45
+Attr52,1,Attr30 & Attr52 & Attr63 & cash_to_current_liabilities
+retained_earnings_to_assets,4,retained_earnings_to_assets
+Attr56,7,Attr49 & Attr13 & Attr35 & Attr24 & Attr56 & Attr26 & Attr41 & Attr58 & Attr45
+Attr55,5,working_capital_to_assets & Attr55 & Attr46
+Attr26,7,Attr49 & Attr13 & Attr35 & Attr24 & Attr56 & Attr26 & Attr41 & Attr58 & Attr45
+Attr63,1,Attr30 & Attr52 & Attr63 & cash_to_current_liabilities
+Attr41,7,Attr49 & Attr13 & Attr35 & Attr24 & Attr56 & Attr26 & Attr41 & Attr58 & Attr45
+Attr29,10,Attr29
+Attr21,9,Attr21
+Attr43,2,Attr43 & Attr20
+Attr57,8,Attr57
+Attr20,2,Attr43 & Attr20
+Attr58,7,Attr49 & Attr13 & Attr35 & Attr24 & Attr56 & Attr26 & Attr41 & Attr58 & Attr45
+cash_to_current_liabilities,1,Attr30 & Attr52 & Attr63 & cash_to_current_liabilities
+Attr45,7,Attr49 & Attr13 & Attr35 & Attr24 & Attr56 & Attr26 & Attr41 & Attr58 & Attr45
+Attr46,5,working_capital_to_assets & Attr55 & Attr46

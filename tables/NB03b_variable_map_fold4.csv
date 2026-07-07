@@ -1,0 +1,25 @@
+feature,definition,OR_mle,rank_biserial,direction
+Attr49,(net profit + depreciation) / total liabilities,0.7672121740103689,0.16799662318345365,risk-reducing
+Attr38,total liabilities / total assets (alt),0.7167496716305587,0.19998443655024511,risk-reducing
+Attr25,equity / total assets (alt),0.741857254579449,0.2277328243245741,risk-reducing
+Attr13,gross profit + depreciation / sales,0.7192507063532223,0.2663531858535022,risk-reducing
+Attr35,total sales / total assets (alt),0.6498147594080801,0.27190646366697313,risk-reducing
+working_capital_to_assets,Attr3  — working capital / total assets,0.7306460218184776,0.17964265253815404,risk-reducing
+Attr30,total liabilities / cash,1.2221885535648898,-0.16545924809971324,risk-increasing
+Attr24,gross profit (3-year avg) / total assets,0.7801991433224185,0.25340678506674086,risk-reducing
+Attr52,short-term liabilities / sales,1.2077412649541435,-0.12903625516921657,risk-increasing
+retained_earnings_to_assets,Attr6  — retained earnings / total assets,0.8391129424776873,0.16541476956851542,risk-reducing
+Attr56,net profit / total assets - ROA,0.8370692178975234,0.12567453387750516,risk-reducing
+Attr55,profit on operating activities (×1000) / short-term liabilities,0.7897694876937287,0.19450122654998603,risk-reducing
+Attr26,gross profit / (depreciation × total assets),0.7469068955960202,0.28674606770633415,risk-reducing
+Attr63,sales / short-term liabilities,0.8189785290055454,0.18311109001542536,risk-reducing
+Attr41,short-term liabilities / total assets,0.8364466711776254,0.15381846575867497,risk-reducing
+Attr29,log(total assets),0.8749157791017615,0.057665083763729696,risk-reducing
+Attr21,sales (t) / sales (t-1),0.8676408543546525,0.08452365874424106,risk-reducing
+Attr43,profit on operating activities / depreciation,1.1195742365065307,-0.055877143677522056,risk-increasing
+Attr57,total assets / current liabilities,0.8847899432820299,0.10304618203472571,risk-reducing
+Attr20,inventory × 365 / sales,1.1080445331017839,-0.03736858551570754,risk-increasing
+Attr58,total costs / total sales,1.1138695950496316,-0.06332136449155357,risk-increasing
+cash_to_current_liabilities,Attr5  — cash / current liabilities,0.8995036023800377,0.15499161729025002,risk-reducing
+Attr45,profit on sales / sales,0.8972934587478867,0.21123048201731365,risk-reducing
+Attr46,(current assets - inventory) / short-term liabilities,0.9092577512762681,0.27912280264149203,risk-reducing
