@@ -1,4 +1,0 @@
-scenario,description,TP,FP,TN,FN,precision,recall,f1_score,warning_rate,false_alarm_rate,lift_vs_baseline,warned_default_rate,not_warned_default_rate
-A_Conservative,L1 >= 1 AND L2 >= 1,1009,9243,5133,299,0.0984,0.7714,0.1746,0.6537,0.6429,1.1801,0.0984,0.055
-B_Base,L1 >= 1 OR  L2 >= 1,1291,13751,625,17,0.0858,0.987,0.1579,0.9591,0.9565,1.0291,0.0858,0.0265
-C_Aggressive,L1 >= 3 OR  L2 >= 1,1238,12380,1996,70,0.0909,0.9465,0.1659,0.8683,0.8612,1.0901,0.0909,0.0339
